@@ -7,7 +7,7 @@ on:
       - master
 
 jobs:
-  build-push-deploy:
+  build-push:
     runs-on: ubuntu-latest
 
     steps:
