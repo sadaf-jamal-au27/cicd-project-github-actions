@@ -37,7 +37,7 @@ jobs:
           mkdir -p ~/.kube
           echo "${{ secrets.KUBE_CONFIG_BASE64 }}" | base64 -d > ~/.kube/config
 
-      - name: Test connection
+      - name: Test connections
         run: kubectl get nodes
 
       - name: Deploy to cluster
