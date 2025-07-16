@@ -6,7 +6,6 @@ This project demonstrates a CI/CD pipeline using GitHub Actions to build a Flask
  Push to `main` branch  
  Docker image is built & pushed  
  Kubernetes Deployment & Service are updated
-
 ### Requirements
 - Kubernetes cluster with access (minikube, EKS, GKE, etc.)
 - DockerHub account
